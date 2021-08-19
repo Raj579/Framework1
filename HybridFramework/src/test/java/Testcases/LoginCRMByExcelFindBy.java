@@ -24,8 +24,8 @@ public class LoginCRMByExcelFindBy extends CRMBaseClass {
 		//loginpage.loginCRMApplication("su", "a", "TC-Vinayak");
 		
 		loginpage.loginCRMApplication(excel.getStringValue("Sheet1", 0, 0), excel.getStringValue("Sheet1", 0, 1), excel.getStringValue("Sheet1", 0, 2));
-		loginpage.loginCRMApplication(excel.getStringValue("Sheet1", 1, 0), excel.getStringValue("Sheet1", 1, 1), excel.getStringValue("Sheet1", 1, 2));
-		loginpage.loginCRMApplication(excel.getStringValue("Sheet1", 2, 0), excel.getStringValue("Sheet1", 2, 1), excel.getStringValue("Sheet1", 2, 2));
+		//loginpage.loginCRMApplication(excel.getStringValue("Sheet1", 1, 0), excel.getStringValue("Sheet1", 1, 1), excel.getStringValue("Sheet1", 1, 2));
+		//loginpage.loginCRMApplication(excel.getStringValue("Sheet1", 2, 0), excel.getStringValue("Sheet1", 2, 1), excel.getStringValue("Sheet1", 2, 2));
 		
 		//driver=BrowserFactory.closeApplication(driver);
 		
