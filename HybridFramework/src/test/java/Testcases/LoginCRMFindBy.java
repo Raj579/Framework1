@@ -20,7 +20,7 @@ public class LoginCRMFindBy extends  CRMBaseClass {
 		
 		LoginPageFindBy loginpage=PageFactory.initElements(driver, LoginPageFindBy.class);
 		
-		loginpage.loginCRMApplication("su", "a", "TC-Multi-Selection");
+		loginpage.loginCRMApplication("su", "a", "TC-Multi-Selection (0Z0)");
 		
 		//driver=BrowserFactory.closeApplication(driver);
 		
