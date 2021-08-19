@@ -39,9 +39,10 @@ public class LoginPageFindBy{
 		Uname.sendKeys(Usrname);
 		Pword.clear();
 		Pword.sendKeys(Pssword);
-		Select drop = new Select(cmpany);
+		cmpany.sendKeys(visibletext);
+		//Select drop = new Select(cmpany);
 		//handling drop downs in POM.
-	    drop.selectByVisibleText(visibletext);
+	    //drop.selectByVisibleText(visibletext);
 	    lgnbutton.click();
 	    // lgout.click();
 		//driver.findElement(usernameLocator).sendKeys(Usrname);
